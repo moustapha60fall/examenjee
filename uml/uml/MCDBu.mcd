@@ -1,0 +1,3247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{15987653-BDDD-4BF1-85BF-436CC60E6347}" Label="" LastModificationDate="1720370117" Name="MC Bibliothèque" Objects="115" Symbols="38" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>15987653-BDDD-4BF1-85BF-436CC60E6347</a:ObjectID>
+<a:Name>MC Bibliothèque</a:Name>
+<a:Code>MCDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720087201</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369876</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Conceptual Data Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=
+
+[FolderOptions\CheckModel]
+
+[FolderOptions\CheckModel\Package]
+
+[FolderOptions\CheckModel\Package\GenrCircularityYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\GenrCircularityNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Package\ShortcutUniqCode]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=No
+
+[FolderOptions\CheckModel\Package\ChildShortcut]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine]
+
+[FolderOptions\CheckModel\Domaine\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Domaine\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information]
+
+[FolderOptions\CheckModel\Information\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoNotUsed]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoUsedSevTime]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\InfoDiffDomn]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckNumParam]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckPrecSupLng]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckUndefDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Information\CheckOtherDttp]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité]
+
+[FolderOptions\CheckModel\Entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - NAME]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\MaxLen - CODE]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNoAttrNo]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNbSerials]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttNoAttrYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EmptyCollYesYes]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSamePrnt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttMultInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\EnttSevInhr]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité\PidtfInhrAtt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité]
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Attribut d&#39;entité\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant]
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\EmptyColl - PENTCOL]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\CheckIncludeColl - Entt]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Entité.Identifiant\IdtfChildPIdtf]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation]
+
+[FolderOptions\CheckModel\Relation\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptYes]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshReflexiveDeptNo]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshMnyMny]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Relation\RlshDepdChild]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association]
+
+[FolderOptions\CheckModel\Association\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbLink]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbIdLink1]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscNbIdLink2]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscIdPass]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscBject]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscMaxCard]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscReflex]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Association\AsscMnyMny]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage]
+
+[FolderOptions\CheckModel\Héritage\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Héritage\EmptyColl - CHILDCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Réplication]
+
+[FolderOptions\CheckModel\Réplication\PartialReplication]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion]
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Règle de gestion\EmptyColl - OBJCOL]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu]
+
+[FolderOptions\CheckModel\Objet étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Objet étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu]
+
+[FolderOptions\CheckModel\Lien étendu\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Lien étendu\UniqueCode]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier]
+
+[FolderOptions\CheckModel\Fichier\UniqueNom]
+CheckSeverity=No
+FixRequested=No
+CheckRequested=Yes
+
+[FolderOptions\CheckModel\Fichier\CheckPathExists]
+CheckSeverity=Yes
+FixRequested=No
+CheckRequested=Yes</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Conceptual options]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+InfoUnique=Yes
+AllowReuse=Yes
+InfoAllowReuse=Yes
+Notation=1
+RlshUnique=Yes
+DefaultDttp=
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyExat=No
+DomnCopyMand=No
+DttpFullName=Yes
+
+[ModelOptions\Conceptual options\NamingOptionsTemplates]
+
+[ModelOptions\Conceptual options\ClssNamingOptions]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+RefrUpdRule=RESTRICT
+RefrDelRule=RESTRICT
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ClassPrefix=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+PreserveMode=Yes
+
+[ModelOptions\Generate\Oom]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=Yes
+PreserveMode=Yes
+
+[ModelOptions\Generate\Ldm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+PreserveMode=Yes
+EnableTransformations=No</a:ModelOptionsText>
+<c:GeneratedModels>
+<o:Shortcut Id="o3">
+<a:ObjectID>8F15AD88-9160-45AA-B56E-439AB3EFCC3B</a:ObjectID>
+<a:Name>MLDBibliotheque</a:Name>
+<a:Code>MLDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720099517</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720099517</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>F53D7CB5-0B9D-4DE0-A506-4EFA6B1E7299</a:TargetID>
+<a:TargetClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetClassID>
+</o:Shortcut>
+<o:Shortcut Id="o4">
+<a:ObjectID>38E9A088-5CA8-4AD9-9BF4-EB104386872A</a:ObjectID>
+<a:Name>Bibliotheque</a:Name>
+<a:Code>BIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720109535</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720109535</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>E0090121-460B-48AF-A9C4-48ACBA73074B</a:TargetID>
+<a:TargetClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+</o:Shortcut>
+<o:Shortcut Id="o5">
+<a:ObjectID>6C3B357B-0748-4360-924C-DDAB564C9AD0</a:ObjectID>
+<a:Name>MCDBibliotheque</a:Name>
+<a:Code>MCDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720110030</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720110030</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>611471D9-A374-4F4C-BF65-72CA4FBD848E</a:TargetID>
+<a:TargetClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetClassID>
+</o:Shortcut>
+<o:Shortcut Id="o6">
+<a:ObjectID>922684CA-AA83-4024-B5C0-DBA8C230100E</a:ObjectID>
+<a:Name>MCDBu</a:Name>
+<a:Code>MCDBU</a:Code>
+<a:CreationDate>1720360702</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720360702</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>49C6B6C2-8990-4E4D-9360-0BA5959D9EAB</a:TargetID>
+<a:TargetClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetClassID>
+</o:Shortcut>
+<o:Shortcut Id="o7">
+<a:ObjectID>5373D071-5436-4A01-8C68-F66AB06A5250</a:ObjectID>
+<a:Name>MLDBu</a:Name>
+<a:Code>MCDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720369433</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>2CDE2014-D4CA-4D84-ABFA-670729D12539</a:TargetID>
+<a:TargetClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetClassID>
+</o:Shortcut>
+<o:Shortcut Id="o8">
+<a:ObjectID>ED2CAFFA-5A91-4599-89DC-06B2A9D90BF2</a:ObjectID>
+<a:Name>MLDBibliothèque</a:Name>
+<a:Code>MLDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720369993</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369993</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>1A3031FD-F94A-41EF-B5D6-F343F5662D2C</a:TargetID>
+<a:TargetClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetClassID>
+</o:Shortcut>
+</c:GeneratedModels>
+<c:ConceptualDiagrams>
+<o:ConceptualDiagram Id="o9">
+<a:ObjectID>B59432E9-27AB-4DE1-BAF8-71D49BC7FC6C</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>DIAGRAMME_1</a:Code>
+<a:CreationDate>1720087201</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366135</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\CDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=
+PckgStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+EnttAttr=Yes
+PentMode=0
+PentNb=5
+EnttDttp=Yes
+EnttDomn=Yes
+EnttShowDomn=No
+EnttMand=Yes
+EnttCIdf=Yes
+EnttKeyI=Yes
+PentStrn=Yes
+IdtfStrn=Yes
+RlshName=Yes
+RlshRole=Yes
+RlshCard=No
+RlshDmnt=Yes
+RlshStrn=Yes
+InhrName=Yes
+InhrStrn=Yes
+Entity.IconPicture=No
+Entity_SymbolLayout=
+Association.IconPicture=No
+Association_SymbolLayout=
+Inheritance.IconPicture=No
+Inheritance_SymbolLayout=
+EnttStrn=Yes
+EnttCmmt=No
+AsscStrn=Yes
+AsscCmmt=No
+AsscAttr=Yes
+AsscDttp=Yes
+AsscDomn=Yes
+AsscShowDomn=No
+AsscMand=Yes
+AsscDLim=Yes
+AsscNb=5
+PassStrn=1
+LinkRole=Yes
+LinkCard=Yes
+LinkStrn=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=-1
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AttributesFont=Arial,8,N
+AttributesFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0 0 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+NAMAFont=Arial,8,N
+NAMAFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+ROLEFont=Arial,8,N
+ROLEFont color=0, 0, 0
+CARDFont=Arial,8,N
+CARDFont color=0, 0, 0
+Line style=2
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+AutoAdjustToText=No
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1575
+Height=1000
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINH]
+Line style=2
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0 0 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 0
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:InheritanceRootLinkSymbol Id="o10">
+<a:CreationDate>1720365855</a:CreationDate>
+<a:ModificationDate>1720366155</a:ModificationDate>
+<a:Rect>((-40630,-11925), (-36056,-450))</a:Rect>
+<a:ListOfPoints>((-38343,-11925),(-38343,-450))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:InheritanceSymbol Ref="o11"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o12"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Inheritance Ref="o13"/>
+</c:Object>
+</o:InheritanceRootLinkSymbol>
+<o:InheritanceLinkSymbol Id="o14">
+<a:CreationDate>1720365855</a:CreationDate>
+<a:ModificationDate>1720366152</a:ModificationDate>
+<a:Rect>((-38399,-11925), (-22633,-11825))</a:Rect>
+<a:ListOfPoints>((-22633,-11925),(-38399,-11925))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o15"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o16"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:NoteSymbol Id="o17">
+<a:Text>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1040{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\f0\fs20 Diagaramme Modele Conception de Donnees\par
+}
+</a:Text>
+<a:CreationDate>1720098950</a:CreationDate>
+<a:ModificationDate>1720359236</a:ModificationDate>
+<a:Rect>((-55973,22076), (-34537,25675))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+<a:ManuallyResized>1</a:ManuallyResized>
+</o:NoteSymbol>
+<o:AssociationLinkSymbol Id="o18">
+<a:CreationDate>1720097163</a:CreationDate>
+<a:ModificationDate>1720367954</a:ModificationDate>
+<a:Rect>((13109,-15688), (14971,-9125))</a:Rect>
+<a:ListOfPoints>((14871,-15688),(14871,-9125))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o19"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o20"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o21"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o22">
+<a:CreationDate>1720097163</a:CreationDate>
+<a:ModificationDate>1720367954</a:ModificationDate>
+<a:Rect>((15046,-9125), (16846,4487))</a:Rect>
+<a:ListOfPoints>((15084,4487),(15084,-9125))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o23"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o20"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o24"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o25">
+<a:CreationDate>1720097168</a:CreationDate>
+<a:ModificationDate>1720359206</a:ModificationDate>
+<a:Rect>((-489,4347), (10841,5521))</a:Rect>
+<a:ListOfPoints>((10841,4934),(-489,4934))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o23"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o26"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o27"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o28">
+<a:CreationDate>1720097168</a:CreationDate>
+<a:ModificationDate>1720359202</a:ModificationDate>
+<a:Rect>((-10365,5710), (-489,6884))</a:Rect>
+<a:ListOfPoints>((-10365,5710),(-489,5710))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o29"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o26"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o30"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o31">
+<a:CreationDate>1720097174</a:CreationDate>
+<a:ModificationDate>1720359214</a:ModificationDate>
+<a:Rect>((-15241,13725), (-13441,19792))</a:Rect>
+<a:ListOfPoints>((-15203,19792),(-15203,13725))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o32"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o33"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o34"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o35">
+<a:CreationDate>1720097174</a:CreationDate>
+<a:ModificationDate>1720359210</a:ModificationDate>
+<a:Rect>((-17736,7329), (-15874,13725))</a:Rect>
+<a:ListOfPoints>((-15974,7329),(-15974,13725))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o29"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o33"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o36"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o37">
+<a:CreationDate>1720097181</a:CreationDate>
+<a:ModificationDate>1720359219</a:ModificationDate>
+<a:Rect>((3464,6366), (15426,21412))</a:Rect>
+<a:ListOfPoints>((15388,6366),(15388,21412),(3464,21412))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o23"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o38"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o39"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o40">
+<a:CreationDate>1720097181</a:CreationDate>
+<a:ModificationDate>1720359219</a:ModificationDate>
+<a:Rect>((-8120,21460), (3464,22634))</a:Rect>
+<a:ListOfPoints>((-8120,21460),(3464,21460))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o32"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o38"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o41"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o42">
+<a:CreationDate>1720097293</a:CreationDate>
+<a:ModificationDate>1720367941</a:ModificationDate>
+<a:Rect>((-41595,1286), (-39733,5244))</a:Rect>
+<a:ListOfPoints>((-39833,1286),(-39833,5244))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o12"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o43"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o44"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o45">
+<a:CreationDate>1720097293</a:CreationDate>
+<a:ModificationDate>1720367941</a:ModificationDate>
+<a:Rect>((-40140,5877), (-12094,7151))</a:Rect>
+<a:ListOfPoints>((-12094,7051),(-40140,7051))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o29"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o43"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o46"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o47">
+<a:CreationDate>1720100855</a:CreationDate>
+<a:ModificationDate>1720366290</a:ModificationDate>
+<a:Rect>((-37673,-2427), (-15013,-1252))</a:Rect>
+<a:ListOfPoints>((-37673,-2427),(-15013,-2427))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o12"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o48"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o49"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o50">
+<a:CreationDate>1720100855</a:CreationDate>
+<a:ModificationDate>1720366290</a:ModificationDate>
+<a:Rect>((-15013,-2563), (13653,2943))</a:Rect>
+<a:ListOfPoints>((11891,2943),(11891,-2563),(-15013,-2563))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o23"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o48"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o51"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:InheritanceRootLinkSymbol Id="o52">
+<a:CreationDate>1720366128</a:CreationDate>
+<a:ModificationDate>1720366204</a:ModificationDate>
+<a:Rect>((-20419,-16725), (-10912,-11367))</a:Rect>
+<a:ListOfPoints>((-13199,-16725),(-13199,-11954),(-20419,-11954))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:InheritanceSymbol Ref="o53"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EntitySymbol Ref="o15"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Inheritance Ref="o54"/>
+</c:Object>
+</o:InheritanceRootLinkSymbol>
+<o:InheritanceLinkSymbol Id="o55">
+<a:CreationDate>1720366128</a:CreationDate>
+<a:ModificationDate>1720366221</a:ModificationDate>
+<a:Rect>((-13199,-22523), (-3509,-16725))</a:Rect>
+<a:ListOfPoints>((-3509,-22523),(-3509,-16725),(-13199,-16725))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o56"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o53"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o57"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:InheritanceLinkSymbol Id="o58">
+<a:CreationDate>1720366130</a:CreationDate>
+<a:ModificationDate>1720366225</a:ModificationDate>
+<a:Rect>((-13458,-25897), (-13199,-16725))</a:Rect>
+<a:ListOfPoints>((-13458,-25897),(-13458,-19611),(-13199,-19611),(-13199,-16725))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o59"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o53"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o60"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:InheritanceLinkSymbol Id="o61">
+<a:CreationDate>1720366133</a:CreationDate>
+<a:ModificationDate>1720366228</a:ModificationDate>
+<a:Rect>((-38399,-23275), (-35151,-11925))</a:Rect>
+<a:ListOfPoints>((-35151,-23275),(-38399,-23275),(-38399,-11925))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o62"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o63"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:InheritanceLinkSymbol Id="o64">
+<a:CreationDate>1720366135</a:CreationDate>
+<a:ModificationDate>1720366231</a:ModificationDate>
+<a:Rect>((-50243,-21823), (-38399,-11925))</a:Rect>
+<a:ListOfPoints>((-50243,-21823),(-50243,-11925),(-38399,-11925))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>128</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o65"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:InheritanceSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:InheritanceLink Ref="o66"/>
+</c:Object>
+</o:InheritanceLinkSymbol>
+<o:EntitySymbol Id="o12">
+<a:CreationDate>1720087460</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-52148,-5371), (-35902,1369))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o67"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o15">
+<a:CreationDate>1720087461</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-31612,-15010), (-19538,-9242))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o68"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o65">
+<a:CreationDate>1720087463</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-53445,-25575), (-44357,-21576))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o69"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o62">
+<a:CreationDate>1720095774</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-38111,-25672), (-32191,-20878))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o70"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o56">
+<a:CreationDate>1720096108</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-6216,-26073), (2768,-22074))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o71"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o59">
+<a:CreationDate>1720096109</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-20695,-25997), (-10553,-21998))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o72"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o29">
+<a:CreationDate>1720096331</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-26783,2966), (-9919,8733))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o73"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o23">
+<a:CreationDate>1720096695</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((7490,242), (22808,7957))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o74"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o32">
+<a:CreationDate>1720096696</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-25510,18392), (-5094,26107))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o75"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o19">
+<a:CreationDate>1720096697</a:CreationDate>
+<a:ModificationDate>1720369433</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((3193,-21384), (25155,-15617))</a:Rect>
+<a:LineColor>4227200</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o76"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o20">
+<a:CreationDate>1720097163</a:CreationDate>
+<a:ModificationDate>1720367954</a:ModificationDate>
+<a:Rect>((11707,-10885), (18601,-7366))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o77"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o26">
+<a:CreationDate>1720097168</a:CreationDate>
+<a:ModificationDate>1720359202</a:ModificationDate>
+<a:Rect>((-6128,4000), (5154,6999))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o78"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o33">
+<a:CreationDate>1720097174</a:CreationDate>
+<a:ModificationDate>1720359210</a:ModificationDate>
+<a:Rect>((-20869,12225), (-11237,15224))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o79"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o38">
+<a:CreationDate>1720097181</a:CreationDate>
+<a:ModificationDate>1720359219</a:ModificationDate>
+<a:Rect>((-1462,19912), (8393,22911))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o80"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o43">
+<a:CreationDate>1720097293</a:CreationDate>
+<a:ModificationDate>1720367941</a:ModificationDate>
+<a:Rect>((-46280,5150), (-34925,8149))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o81"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:AssociationSymbol Id="o48">
+<a:CreationDate>1720100855</a:CreationDate>
+<a:ModificationDate>1720366290</a:ModificationDate>
+<a:Rect>((-20578,-4063), (-9446,-1064))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o82"/>
+</c:Object>
+</o:AssociationSymbol>
+<o:InheritanceSymbol Id="o11">
+<a:CreationDate>1720365855</a:CreationDate>
+<a:ModificationDate>1720366152</a:ModificationDate>
+<a:Rect>((-39186,-12425), (-37613,-11426))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepSize>1</a:KeepSize>
+<c:Object>
+<o:Inheritance Ref="o13"/>
+</c:Object>
+</o:InheritanceSymbol>
+<o:InheritanceSymbol Id="o53">
+<a:CreationDate>1720366128</a:CreationDate>
+<a:ModificationDate>1720366204</a:ModificationDate>
+<a:Rect>((-13986,-17225), (-12413,-16226))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepSize>1</a:KeepSize>
+<c:Object>
+<o:Inheritance Ref="o54"/>
+</c:Object>
+</o:InheritanceSymbol>
+</c:Symbols>
+</o:ConceptualDiagram>
+</c:ConceptualDiagrams>
+<c:DefaultDiagram>
+<o:ConceptualDiagram Ref="o9"/>
+</c:DefaultDiagram>
+<c:Entities>
+<o:Entity Id="o67">
+<a:ObjectID>F304389B-9F8F-4868-B77A-4E27F5B1AD86</a:ObjectID>
+<a:Name>Document</a:Name>
+<a:Code>DOCUMENT</a:Code>
+<a:CreationDate>1720087460</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358758</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o83">
+<a:ObjectID>4C69205B-5D5E-4946-B025-BC9B855A4E11</a:ObjectID>
+<a:Name>id_Document</a:Name>
+<a:Code>ID_DOCUMENT</a:Code>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359380</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o84"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o83"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o84">
+<a:ObjectID>7BDF9B74-A965-4C22-BB4A-392B75EBA892</a:ObjectID>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087695</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o85"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o86">
+<a:ObjectID>2068A843-9FB5-4F69-9D83-C572547B4D6B</a:ObjectID>
+<a:CreationDate>1720358710</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358793</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o87"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o88">
+<a:ObjectID>3F764B75-3309-41AA-8196-0DB90B937FB2</a:ObjectID>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087695</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o89"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o90">
+<a:ObjectID>74E74812-07ED-4966-91EA-A93038F7F56B</a:ObjectID>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087695</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o91"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o68">
+<a:ObjectID>6E250308-697F-49C0-AA19-6946848DEE67</a:ObjectID>
+<a:Name>Livre</a:Name>
+<a:Code>LIVRE</a:Code>
+<a:CreationDate>1720087461</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368448</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o92">
+<a:ObjectID>7C38E7CD-E48D-4543-96D5-325753401F4A</a:ObjectID>
+<a:CreationDate>1720358797</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358842</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o93"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o94">
+<a:ObjectID>4F6D0703-ADBB-49F7-80DD-ED68BB098272</a:ObjectID>
+<a:CreationDate>1720087704</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087887</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o95"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o96">
+<a:ObjectID>ECDD0039-0F77-4950-9A5D-DE4DEBC12AB6</a:ObjectID>
+<a:CreationDate>1720087704</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087887</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o97"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o69">
+<a:ObjectID>E8724ABF-375D-424B-95E1-E6A375F68317</a:ObjectID>
+<a:Name>Dictionnaire</a:Name>
+<a:Code>DICTIONNAIRE</a:Code>
+<a:CreationDate>1720087463</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368339</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o98">
+<a:ObjectID>4C3F0D42-8F50-4EEA-B28F-848F5C0B8D77</a:ObjectID>
+<a:CreationDate>1720095709</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720095767</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o99"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o70">
+<a:ObjectID>7C1019FE-8124-4FDF-ADDF-62CE71BD836D</a:ObjectID>
+<a:Name>Revue</a:Name>
+<a:Code>REVUE</a:Code>
+<a:CreationDate>1720095774</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368287</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o100">
+<a:ObjectID>5C6C1ECF-A8DE-4656-8644-BFCCA48E94BF</a:ObjectID>
+<a:CreationDate>1720095916</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720095968</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o101"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o102">
+<a:ObjectID>7E7233A4-C7BA-4BAE-95E9-347C80474696</a:ObjectID>
+<a:CreationDate>1720095916</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720095968</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o103"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o71">
+<a:ObjectID>053777A2-1130-4C50-B239-0C253259663B</a:ObjectID>
+<a:Name>Roman</a:Name>
+<a:Code>ROMAN</a:Code>
+<a:CreationDate>1720096108</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369819</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o104">
+<a:ObjectID>E5E0CEC3-B0B8-4B61-8B82-7FF0B3555F80</a:ObjectID>
+<a:CreationDate>1720369793</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369819</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o105"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o72">
+<a:ObjectID>6938CB99-C274-4575-B5E5-C9F017643053</a:ObjectID>
+<a:Name>Manuel</a:Name>
+<a:Code>MANUEL</a:Code>
+<a:CreationDate>1720096109</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369876</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Attributes>
+<o:EntityAttribute Id="o106">
+<a:ObjectID>C98CAD88-D8B7-4F4C-9C93-0A541DC7EBC3</a:ObjectID>
+<a:CreationDate>1720369858</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369876</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o107"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o73">
+<a:ObjectID>110FC12E-5745-4BC0-A6EF-DB8E76B18E9E</a:ObjectID>
+<a:Name>Bibliotheque</a:Name>
+<a:Code>BIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720096331</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358690</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o108">
+<a:ObjectID>83513E13-49C9-4E84-A3F4-7CEC1DAC64A1</a:ObjectID>
+<a:Name>id_Bibliotheque</a:Name>
+<a:Code>ID_BIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720096335</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359318</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o109"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o108"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o109">
+<a:ObjectID>D6802FB4-440B-4A46-98D8-CF27E7B703E3</a:ObjectID>
+<a:CreationDate>1720096335</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720096371</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o110"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o111">
+<a:ObjectID>3D992E7A-F6D3-4D92-96F1-3C8A97CBFAE3</a:ObjectID>
+<a:CreationDate>1720358597</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358690</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o112"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o113">
+<a:ObjectID>3AFDD576-5D21-4675-950A-ED3A43E67941</a:ObjectID>
+<a:CreationDate>1720358597</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358690</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o114"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o74">
+<a:ObjectID>0697934B-EDC0-4585-94B5-E5F2999C9519</a:ObjectID>
+<a:Name>Emprunt</a:Name>
+<a:Code>EMPRUNT</a:Code>
+<a:CreationDate>1720096695</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367852</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o115">
+<a:ObjectID>7B82E361-77B6-4AC5-8274-0555F3874370</a:ObjectID>
+<a:Name>id_Pret</a:Name>
+<a:Code>ID_PRET</a:Code>
+<a:CreationDate>1720097466</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359346</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o116"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o115"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o116">
+<a:ObjectID>E50616C9-8A2B-4098-8B78-692835FC0105</a:ObjectID>
+<a:CreationDate>1720097466</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097490</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o117"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o118">
+<a:ObjectID>07418C4D-21E7-46F3-A2DA-1B040EC39E04</a:ObjectID>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o119"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o120">
+<a:ObjectID>0CC85437-2F87-4535-B69F-FBD3B9349454</a:ObjectID>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o121"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o122">
+<a:ObjectID>E20DD50D-602E-414E-B3DD-5361D55C2696</a:ObjectID>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o123"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o124">
+<a:ObjectID>1252A538-DEDC-423F-B9F8-5C3A209B8B42</a:ObjectID>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o125"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o75">
+<a:ObjectID>4217EA05-912B-486D-B534-DC1B97898EE4</a:ObjectID>
+<a:Name>Bibliothecaire</a:Name>
+<a:Code>BIBLIOTHECAIRE</a:Code>
+<a:CreationDate>1720096696</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720360202</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o126">
+<a:ObjectID>452E8E27-2291-4D65-9E8B-9C4A86B7608A</a:ObjectID>
+<a:Name>id_Bibliothecaire</a:Name>
+<a:Code>ID_BIBLIOTHECAIRE</a:Code>
+<a:CreationDate>1720097386</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359333</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o127"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o126"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o127">
+<a:ObjectID>A05F4D44-3963-408B-9D59-0EFA85E24789</a:ObjectID>
+<a:CreationDate>1720097386</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097408</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o128"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o129">
+<a:ObjectID>D5198ECC-07E0-4A33-9AB5-CEC80F4477EE</a:ObjectID>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o130"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o131">
+<a:ObjectID>3F600E95-057F-43A2-8A4A-3CBFFCF4049B</a:ObjectID>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o132"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o133">
+<a:ObjectID>6A473CA8-6819-4CB2-854A-25EADC1E5230</a:ObjectID>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o134"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o135">
+<a:ObjectID>1BF9A11A-B5B1-42E1-9961-473B5F52DA38</a:ObjectID>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o136"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o76">
+<a:ObjectID>34F47BC4-702B-4653-99E0-8F276EAA1D0D</a:ObjectID>
+<a:Name>Adherent</a:Name>
+<a:Code>ADHERENT</a:Code>
+<a:CreationDate>1720096697</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358954</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o137">
+<a:ObjectID>B2978155-2E84-42B7-B79C-7BFF8F0A2ADA</a:ObjectID>
+<a:Name>id_Adherent</a:Name>
+<a:Code>ID_ADHERENT</a:Code>
+<a:CreationDate>1720097441</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359359</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o138"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o137"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o138">
+<a:ObjectID>C174857F-A227-4F35-B7B1-06786A98C96D</a:ObjectID>
+<a:CreationDate>1720097441</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097462</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o139"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o140">
+<a:ObjectID>5ED487AA-5EC3-4364-8F44-F0B75B85FA20</a:ObjectID>
+<a:CreationDate>1720358880</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358954</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o141"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o142">
+<a:ObjectID>71EF37E9-D138-43EB-91F7-5AA1AB475709</a:ObjectID>
+<a:CreationDate>1720358880</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358954</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o143"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+</c:Entities>
+<c:Inheritances>
+<o:Inheritance Id="o13">
+<a:ObjectID>999D4083-D8DC-45F4-B7FA-45DFA8965A8C</a:ObjectID>
+<a:Name>Heritage_1</a:Name>
+<a:Code>HERITAGE_1</a:Code>
+<a:CreationDate>1720365855</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720365855</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseLogicalInheritance.Complete>0</a:BaseLogicalInheritance.Complete>
+<c:ParentEntity>
+<o:Entity Ref="o67"/>
+</c:ParentEntity>
+</o:Inheritance>
+<o:Inheritance Id="o54">
+<a:ObjectID>AA4F2EB1-5984-4694-9A7B-BEC53A2BF50F</a:ObjectID>
+<a:Name>Heritage_2</a:Name>
+<a:Code>HERITAGE_2</a:Code>
+<a:CreationDate>1720366128</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366373</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:BaseLogicalInheritance.Complete>0</a:BaseLogicalInheritance.Complete>
+<c:ParentEntity>
+<o:Entity Ref="o68"/>
+</c:ParentEntity>
+</o:Inheritance>
+</c:Inheritances>
+<c:DataItems>
+<o:DataItem Id="o85">
+<a:ObjectID>8416C7B9-52E6-4921-ADEB-AEEB58A73C17</a:ObjectID>
+<a:Name>id_Document</a:Name>
+<a:Code>ID_DOCUMENT</a:Code>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097555</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o89">
+<a:ObjectID>DDF995FF-30CE-4C92-86E7-9167DDEE2D8F</a:ObjectID>
+<a:Name>numEnreg</a:Name>
+<a:Code>NUMENREG</a:Code>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087695</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o91">
+<a:ObjectID>9E33969A-ED7A-438D-8F1F-E51D61F2FDAC</a:ObjectID>
+<a:Name>titre</a:Name>
+<a:Code>TITRE</a:Code>
+<a:CreationDate>1720087543</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087695</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o95">
+<a:ObjectID>58670AC6-0B32-4E19-9598-A01177155491</a:ObjectID>
+<a:Name>autre</a:Name>
+<a:Code>AUTRE</a:Code>
+<a:CreationDate>1720087704</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720087887</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o97">
+<a:ObjectID>67B51C1B-CE00-44B6-AFAB-6A2AFBEF1F55</a:ObjectID>
+<a:Name>nbrPages</a:Name>
+<a:Code>NBRPAGES</a:Code>
+<a:CreationDate>1720087704</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358842</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o144">
+<a:ObjectID>E180E2BC-B218-4C5D-A9AA-CF77FA95B1EF</a:ObjectID>
+<a:Name>id_Livre</a:Name>
+<a:Code>ID_LIVRE</a:Code>
+<a:CreationDate>1720087704</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368448</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o145">
+<a:ObjectID>24A5AB3C-3448-4F32-89A2-700B3651F64C</a:ObjectID>
+<a:Name>id_Langue</a:Name>
+<a:Code>ID_LANGUE</a:Code>
+<a:CreationDate>1720095709</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368201</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o99">
+<a:ObjectID>C456C4EC-223D-4462-97D0-EE9B16D7D742</a:ObjectID>
+<a:Name>langue</a:Name>
+<a:Code>LANGUE</a:Code>
+<a:CreationDate>1720095709</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720095767</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o146">
+<a:ObjectID>5A995DC0-2506-4541-BE58-A856C27B29DB</a:ObjectID>
+<a:Name>id_Revue</a:Name>
+<a:Code>ID_REVUE</a:Code>
+<a:CreationDate>1720095916</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368287</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o101">
+<a:ObjectID>AE403ED1-D4DC-4756-B95E-5F578ECB7DEE</a:ObjectID>
+<a:Name>mois</a:Name>
+<a:Code>MOIS</a:Code>
+<a:CreationDate>1720095916</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720095968</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o103">
+<a:ObjectID>DC496FFA-CA3F-49B3-8A7F-3FE033B50CFD</a:ObjectID>
+<a:Name>annee</a:Name>
+<a:Code>ANNEE</a:Code>
+<a:CreationDate>1720095916</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720095968</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o147">
+<a:ObjectID>DB4E7FB1-0CF6-4148-A6DB-37C39ECC7D81</a:ObjectID>
+<a:Name>id_Roman</a:Name>
+<a:Code>ID_ROMAN</a:Code>
+<a:CreationDate>1720096145</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368256</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o148">
+<a:ObjectID>A0F88584-DE81-4E63-970A-482CBA8CA52A</a:ObjectID>
+<a:Name>id_Manuel</a:Name>
+<a:Code>ID_MANUEL</a:Code>
+<a:CreationDate>1720096190</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368234</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o110">
+<a:ObjectID>3D5DFD48-5B14-423F-95E7-C0C0E5457180</a:ObjectID>
+<a:Name>id_Bibliotheque</a:Name>
+<a:Code>ID_BIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720096335</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720096371</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o128">
+<a:ObjectID>F536F558-32A5-47C4-BB0C-EDB608779D71</a:ObjectID>
+<a:Name>id_Bibliothecaire</a:Name>
+<a:Code>ID_BIBLIOTHECAIRE</a:Code>
+<a:CreationDate>1720097386</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097408</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o139">
+<a:ObjectID>466570C6-89FA-4203-911A-71E17CEF21C5</a:ObjectID>
+<a:Name>id_Adherent</a:Name>
+<a:Code>ID_ADHERENT</a:Code>
+<a:CreationDate>1720097441</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097462</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o117">
+<a:ObjectID>B2AA7007-6E6A-4620-8997-E122B4A877D8</a:ObjectID>
+<a:Name>id_Pret</a:Name>
+<a:Code>ID_PRET</a:Code>
+<a:CreationDate>1720097466</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097490</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o119">
+<a:ObjectID>F80FBD46-6E42-4F7B-9270-9C2EF78273E3</a:ObjectID>
+<a:Name>dateDebutPret</a:Name>
+<a:Code>DATEDEBUTPRET</a:Code>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o121">
+<a:ObjectID>C0A93801-2D6E-41CB-824E-5F895784B645</a:ObjectID>
+<a:Name>dateFinPret</a:Name>
+<a:Code>DATEFINPRET</a:Code>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o123">
+<a:ObjectID>3C339979-E803-4897-AFEB-1045F762AFF8</a:ObjectID>
+<a:Name>dureeEmprunt</a:Name>
+<a:Code>DUREEEMPRUNT</a:Code>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o125">
+<a:ObjectID>0E23D9A0-E92D-4A96-B45C-320437A1FFBA</a:ObjectID>
+<a:Name>penalites</a:Name>
+<a:Code>PENALITES</a:Code>
+<a:CreationDate>1720357500</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720357654</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>DC25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o112">
+<a:ObjectID>EB89B0A2-17BA-415B-AA4C-456DFEDA2E07</a:ObjectID>
+<a:Name>nomBu</a:Name>
+<a:Code>NOMBU</a:Code>
+<a:CreationDate>1720358597</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358690</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o114">
+<a:ObjectID>DC570FBE-2A48-4E51-95BB-27EEC667B2A1</a:ObjectID>
+<a:Name>emailBu</a:Name>
+<a:Code>EMAILBU</a:Code>
+<a:CreationDate>1720358597</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358690</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A254</a:DataType>
+<a:Length>254</a:Length>
+</o:DataItem>
+<o:DataItem Id="o87">
+<a:ObjectID>610D4A93-1418-4D53-AB3A-1EBEC4B831E6</a:ObjectID>
+<a:Name>type_Document</a:Name>
+<a:Code>TYPE_DOCUMENT</a:Code>
+<a:CreationDate>1720358710</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358758</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o93">
+<a:ObjectID>2D1728C9-B8C1-45E3-9EEC-2FA3C6FFF117</a:ObjectID>
+<a:Name>type_Livre</a:Name>
+<a:Code>TYPE_LIVRE</a:Code>
+<a:CreationDate>1720358797</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358842</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o141">
+<a:ObjectID>B7EEC1F6-421D-4BFB-AA4B-BA4C986A6495</a:ObjectID>
+<a:Name>emailEtudiant</a:Name>
+<a:Code>EMAILETUDIANT</a:Code>
+<a:CreationDate>1720358880</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358954</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A254</a:DataType>
+<a:Length>254</a:Length>
+</o:DataItem>
+<o:DataItem Id="o143">
+<a:ObjectID>541872D9-D103-4A3D-BC0C-4621B42204DB</a:ObjectID>
+<a:Name>numeroCarteEtudiant</a:Name>
+<a:Code>NUMEROCARTEETUDIANT</a:Code>
+<a:CreationDate>1720358880</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720358954</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>VA254</a:DataType>
+<a:Length>254</a:Length>
+</o:DataItem>
+<o:DataItem Id="o130">
+<a:ObjectID>D5DFB32E-75B4-446C-A50A-22DA88344106</a:ObjectID>
+<a:Name>nom</a:Name>
+<a:Code>NOM</a:Code>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o132">
+<a:ObjectID>780A2DAD-1CCE-483F-8BD4-B5FA35EEC2EC</a:ObjectID>
+<a:Name>prenom</a:Name>
+<a:Code>PRENOM</a:Code>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>A25</a:DataType>
+<a:Length>25</a:Length>
+</o:DataItem>
+<o:DataItem Id="o134">
+<a:ObjectID>1CD64BB7-F324-499E-B93E-97C9B902BAE7</a:ObjectID>
+<a:Name>email</a:Name>
+<a:Code>EMAIL</a:Code>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>VA254</a:DataType>
+<a:Length>254</a:Length>
+</o:DataItem>
+<o:DataItem Id="o136">
+<a:ObjectID>D94E2A0A-D41C-4A47-BF47-B293CF4D5544</a:ObjectID>
+<a:Name>telephone</a:Name>
+<a:Code>TELEPHONE</a:Code>
+<a:CreationDate>1720358972</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359108</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:DataType>VA254</a:DataType>
+<a:Length>254</a:Length>
+</o:DataItem>
+<o:DataItem Id="o105">
+<a:ObjectID>F732229F-59DC-4EEC-87B7-AE9D3D1A7952</a:ObjectID>
+<a:Name>genre</a:Name>
+<a:Code>GENRE</a:Code>
+<a:CreationDate>1720369793</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369819</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:DataItem>
+<o:DataItem Id="o107">
+<a:ObjectID>7DA29777-BA07-42E1-8A41-6EB31541E2E6</a:ObjectID>
+<a:Name>domaine</a:Name>
+<a:Code>DOMAINE</a:Code>
+<a:CreationDate>1720369858</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369876</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:DataItem>
+</c:DataItems>
+<c:InheritanceLinks>
+<o:InheritanceLink Id="o16">
+<a:ObjectID>9417E03D-605E-41D0-86C0-FE9423557035</a:ObjectID>
+<a:CreationDate>1720365855</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720365855</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Object1>
+<o:Inheritance Ref="o13"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o68"/>
+</c:Object2>
+</o:InheritanceLink>
+<o:InheritanceLink Id="o57">
+<a:ObjectID>0DA0A295-4999-4A5F-88C1-2E30FD1CF332</a:ObjectID>
+<a:CreationDate>1720366128</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366128</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Object1>
+<o:Inheritance Ref="o54"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o71"/>
+</c:Object2>
+</o:InheritanceLink>
+<o:InheritanceLink Id="o60">
+<a:ObjectID>56F68BFE-346A-4441-80C9-10DE48E13FDE</a:ObjectID>
+<a:CreationDate>1720366130</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366130</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Object1>
+<o:Inheritance Ref="o54"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o72"/>
+</c:Object2>
+</o:InheritanceLink>
+<o:InheritanceLink Id="o63">
+<a:ObjectID>C4DF2E7C-E87D-4CFD-9F39-4BDCE90606EB</a:ObjectID>
+<a:CreationDate>1720366133</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366133</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Object1>
+<o:Inheritance Ref="o13"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o70"/>
+</c:Object2>
+</o:InheritanceLink>
+<o:InheritanceLink Id="o66">
+<a:ObjectID>CEB2167B-9B78-415F-8754-0039B6927C00</a:ObjectID>
+<a:CreationDate>1720366135</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366135</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<c:Object1>
+<o:Inheritance Ref="o13"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o69"/>
+</c:Object2>
+</o:InheritanceLink>
+</c:InheritanceLinks>
+<c:Associations>
+<o:Association Id="o77">
+<a:ObjectID>073FF9F7-EFB0-419C-BC2E-613DEB184140</a:ObjectID>
+<a:Name>EmpruntPar</a:Name>
+<a:Code>EMPRUNTPAR</a:Code>
+<a:CreationDate>1720097163</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367920</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:Association>
+<o:Association Id="o78">
+<a:ObjectID>45359D4B-0945-48A6-BB5E-B5FDCCA87E6F</a:ObjectID>
+<a:Name>EnregistreEmprunt</a:Name>
+<a:Code>ENREGISTREEMPRUNT</a:Code>
+<a:CreationDate>1720097168</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367894</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:Association>
+<o:Association Id="o79">
+<a:ObjectID>5160FD2C-71AF-42E1-9CD2-760CF03D409F</a:ObjectID>
+<a:Name>EmployeDans</a:Name>
+<a:Code>EMPLOYEDANS</a:Code>
+<a:CreationDate>1720097174</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367869</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:Association>
+<o:Association Id="o80">
+<a:ObjectID>43B142CE-9F27-4F80-8526-572C235073CC</a:ObjectID>
+<a:Name>TraiteEmprunt</a:Name>
+<a:Code>TRAITEEMPRUNT</a:Code>
+<a:CreationDate>1720097181</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367880</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:Association>
+<o:Association Id="o81">
+<a:ObjectID>A90A6780-8C8F-4469-9260-40F99951196A</a:ObjectID>
+<a:Name>ContientDocument</a:Name>
+<a:Code>CONTIENTDOCUMENT</a:Code>
+<a:CreationDate>1720097293</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367906</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:Association>
+<o:Association Id="o82">
+<a:ObjectID>6712EBED-62E6-435B-B3E8-D8110F4E41B8</a:ObjectID>
+<a:Name>ConcerneEmprunt</a:Name>
+<a:Code>CONCERNEEMPRUNT</a:Code>
+<a:CreationDate>1720100855</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720368044</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+</o:Association>
+</c:Associations>
+<c:AssociationsLinks>
+<o:AssociationLink Id="o21">
+<a:ObjectID>A72EF322-3103-4D51-A1AE-84EE3CE4F88F</a:ObjectID>
+<a:CreationDate>1720097163</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720367351</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o77"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o76"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o24">
+<a:ObjectID>30E908E5-F9EB-48CC-9DED-0D4E967B7177</a:ObjectID>
+<a:CreationDate>1720097163</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720366768</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o77"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o74"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o27">
+<a:ObjectID>88F11B50-B512-4334-AD20-688487819990</a:ObjectID>
+<a:CreationDate>1720097168</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720098036</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o78"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o74"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o30">
+<a:ObjectID>6ED53553-C9CC-45CF-A618-337A2D483EE7</a:ObjectID>
+<a:CreationDate>1720097168</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720097919</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o78"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o73"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o34">
+<a:ObjectID>57B6731F-3AE5-4A97-A150-03A24A477870</a:ObjectID>
+<a:CreationDate>1720097174</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720098121</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o79"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o75"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o36">
+<a:ObjectID>34BCA5C1-B193-4473-B63B-046BACD10672</a:ObjectID>
+<a:CreationDate>1720097174</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720098128</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o79"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o73"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o39">
+<a:ObjectID>8B67D098-FD5A-4DF4-87C7-66DCB5955605</a:ObjectID>
+<a:CreationDate>1720097181</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720360219</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>0,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o80"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o74"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o41">
+<a:ObjectID>7F09B1F0-6C48-4F5D-924F-D616AFA35E44</a:ObjectID>
+<a:CreationDate>1720097181</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720360202</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o80"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o75"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o44">
+<a:ObjectID>935C7913-AF53-41FD-B77E-6BB8AFEC06FE</a:ObjectID>
+<a:CreationDate>1720097293</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720098602</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o81"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o67"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o46">
+<a:ObjectID>CC295869-4509-4B90-8AA6-178D06CE9A2F</a:ObjectID>
+<a:CreationDate>1720097293</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720098173</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o81"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o73"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o49">
+<a:ObjectID>7528F22B-8C27-455D-9475-3E1E89D0FC56</a:ObjectID>
+<a:CreationDate>1720100855</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720101426</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>1,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o82"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o67"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o51">
+<a:ObjectID>982D40FF-FF7E-4FF6-B085-E18907ADAF98</a:ObjectID>
+<a:CreationDate>1720100855</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720100929</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:Cardinality>0,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o82"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o74"/>
+</c:Object2>
+</o:AssociationLink>
+</c:AssociationsLinks>
+<c:TargetModels>
+<o:TargetModel Id="o149">
+<a:ObjectID>6E775BB8-703B-44B6-BDB1-E97B878D0DC2</a:ObjectID>
+<a:Name>MLDBibliotheque</a:Name>
+<a:Code>MLDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720099517</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720359720</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/LENOVO/Documents/MLDBibliotheque.mld</a:TargetModelURL>
+<a:TargetModelID>F53D7CB5-0B9D-4DE0-A506-4EFA6B1E7299</a:TargetModelID>
+<a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o150">
+<a:ObjectID>A2315368-2343-4FFC-8E74-B45867CDD583</a:ObjectID>
+<a:Name>Bibliotheque</a:Name>
+<a:Code>BIBLIOTHEQUE</a:Code>
+<a:ExtractionID>6619236</a:ExtractionID>
+<a:CreationDate>1720109535</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720115234</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/LENOVO/Documents/Bibliotheque.moo</a:TargetModelURL>
+<a:TargetModelID>E0090121-460B-48AF-A9C4-48ACBA73074B</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o151">
+<a:ObjectID>9E0D0EB4-29FE-474A-B744-6B7FDCA60DDC</a:ObjectID>
+<a:Name>MCDBibliotheque</a:Name>
+<a:Code>MCDBIBLIOTHEQUE</a:Code>
+<a:ExtractionID>655373</a:ExtractionID>
+<a:CreationDate>1720110030</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720115236</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/LENOVO/Documents/MCDBibliotheque.mpd</a:TargetModelURL>
+<a:TargetModelID>611471D9-A374-4F4C-BF65-72CA4FBD848E</a:TargetModelID>
+<a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o5"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o152">
+<a:ObjectID>F98039D9-8A8F-4EFD-AB4C-4CF77EDD3722</a:ObjectID>
+<a:Name>MCDBu</a:Name>
+<a:Code>MCDBU</a:Code>
+<a:CreationDate>1720360702</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720360807</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/LENOVO/Documents/MLDBu.mld</a:TargetModelURL>
+<a:TargetModelID>49C6B6C2-8990-4E4D-9360-0BA5959D9EAB</a:TargetModelID>
+<a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o6"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o153">
+<a:ObjectID>21ED3F01-2FC6-4FD1-85BC-4F9743BB089E</a:ObjectID>
+<a:Name>MLDBu</a:Name>
+<a:Code>MCDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720369433</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720369476</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/LENOVO/Documents/MLDBu.mld</a:TargetModelURL>
+<a:TargetModelID>2CDE2014-D4CA-4D84-ABFA-670729D12539</a:TargetModelID>
+<a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o7"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o154">
+<a:ObjectID>88135F82-8D75-459B-B1D6-CB86EBBA55BE</a:ObjectID>
+<a:Name>MLDBibliothèque</a:Name>
+<a:Code>MLDBIBLIOTHEQUE</a:Code>
+<a:CreationDate>1720369993</a:CreationDate>
+<a:Creator>LENOVO</a:Creator>
+<a:ModificationDate>1720370117</a:ModificationDate>
+<a:Modifier>LENOVO</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/LENOVO/Documents/MLDBibliothèque.mld</a:TargetModelURL>
+<a:TargetModelID>1A3031FD-F94A-41EF-B5D6-F343F5662D2C</a:TargetModelID>
+<a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o8"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 juil. 2024, 01:00:08 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="examenjavajee" name="sn.ucad.fst.dmi.mtdsi.recherche.modelDAO.Emprunt" optimistic-lock="none" table="emprunt">
+        <id name="idPret" type="java.lang.Integer">
+            <column name="ID_PRET"/>
+            <generator class="identity"/>
+        </id>
+        <property name="idBibliothecaire" type="java.lang.Integer">
+            <column name="ID_BIBLIOTHECAIRE"/>
+        </property>
+        <property name="idDocument" type="java.lang.Integer">
+            <column name="ID_DOCUMENT"/>
+        </property>
+        <property name="datedebutpret" type="date">
+            <column length="10" name="DATEDEBUTPRET"/>
+        </property>
+        <property name="datefinpret" type="date">
+            <column length="10" name="DATEFINPRET"/>
+        </property>
+        <property name="dureeemprunt" type="java.lang.Integer">
+            <column name="DUREEEMPRUNT"/>
+        </property>
+        <property name="penalites" type="big_integer">
+            <column name="PENALITES" precision="25" scale="0"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 juil. 2024, 01:00:08 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="examenjavajee" name="sn.ucad.fst.dmi.mtdsi.recherche.modelDAO.Adherent" optimistic-lock="none" table="adherent">
+        <id name="idAdherent" type="java.lang.Integer">
+            <column name="ID_ADHERENT"/>
+            <generator class="increment"/>
+        </id>
+        <property name="idPret" type="int">
+            <column name="ID_PRET" not-null="false"/>
+        </property>
+        <property name="emailetudiant" type="string">
+            <column length="254" name="EMAILETUDIANT" not-null="true"/>
+        </property>
+        <property name="numerocarteetudiant" type="string">
+            <column length="254" name="NUMEROCARTEETUDIANT" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

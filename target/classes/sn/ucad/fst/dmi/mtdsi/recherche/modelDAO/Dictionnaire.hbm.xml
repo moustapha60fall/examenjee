@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 juil. 2024, 01:00:08 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="examenjavajee" name="sn.ucad.fst.dmi.mtdsi.recherche.modelDAO.Dictionnaire" optimistic-lock="none" table="dictionnaire">
+        <id name="idDocument" type="java.lang.Integer">
+            <column name="ID_DOCUMENT"/>
+            <generator class="identity"/>
+        </id>
+        <property name="typeDocument" type="string">
+            <column length="25" name="TYPE_DOCUMENT" not-null="true"/>
+        </property>
+        <property name="numenreg" type="java.lang.Integer">
+            <column name="NUMENREG"/>
+        </property>
+        <property name="titre" type="string">
+            <column length="25" name="TITRE"/>
+        </property>
+        <property name="langue" type="string">
+            <column length="25" name="LANGUE"/>
+        </property>
+    </class>
+</hibernate-mapping>
