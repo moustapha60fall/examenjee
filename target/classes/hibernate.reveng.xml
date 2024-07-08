@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd">
+
+<hibernate-reverse-engineering>
+	<table-filter match-catalog="examenjavajee" match-name="adherent" />
+	<table-filter match-catalog="examenjavajee" match-name="bibliothecaire" />
+	<table-filter match-catalog="examenjavajee" match-name="bibliotheque" />
+	<table-filter match-catalog="examenjavajee" match-name="dictionnaire" />
+	<table-filter match-catalog="examenjavajee" match-name="emprunt" />
+	<table-filter match-catalog="examenjavajee" match-name="manuel" />
+	<table-filter match-catalog="examenjavajee" match-name="revue" />
+	<table-filter match-catalog="examenjavajee" match-name="roman" />
+</hibernate-reverse-engineering>

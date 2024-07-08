@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AdherentServlet</display-name>
+    <servlet-name>AdherentServlet</servlet-name>
+    <servlet-class>sn.ucad.fst.dmi.mtdsi.recherche.servlet.AdherentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdherentServlet</servlet-name>
+    <url-pattern>/AdherentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BibliothecaireServlet</display-name>
+    <servlet-name>BibliothecaireServlet</servlet-name>
+    <servlet-class>sn.ucad.fst.dmi.mtdsi.recherche.servlet.BibliothecaireServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BibliothecaireServlet</servlet-name>
+    <url-pattern>/BibliothecaireServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BibliothequeServlet</display-name>
+    <servlet-name>BibliothequeServlet</servlet-name>
+    <servlet-class>sn.ucad.fst.dmi.mtdsi.recherche.servlet.BibliothequeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BibliothequeServlet</servlet-name>
+    <url-pattern>/BibliothequeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
